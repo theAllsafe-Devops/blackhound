@@ -58,7 +58,7 @@ const SearchBox: React.FC<Props> = ({
             type="button"
             onClick={onClearSearch}
             className={cn(
-              "cursor-pointer h-full w-10 md:w-14 flex items-center justify-center absolute text-body transition-colors duration-200 focus:outline-none hover:text-accent-hover focus:text-accent-hover",
+              "cursor-pointer h-full w-10 md:w-14 flex items-center justify-center absolute text-body transition-colors duration-200 focus:outline-none grayy focus:text-accent-hover",
               {
                 "end-36": variant === "normal",
                 "end-0": variant !== "normal",
@@ -71,12 +71,12 @@ const SearchBox: React.FC<Props> = ({
         )}
 
         {variant === "normal" ? (
-          <button className="h-full px-8 flex items-center rounded-lg rounded-ts-none rounded-bs-none bg-accent text-light font-semibold transition-colors duration-200 focus:outline-none hover:bg-accent-hover focus:bg-accent-hover">
+          <button className="h-full px-8 flex items-center rounded-lg rounded-ts-none rounded-bs-none bg-dark text-light font-semibold transition-colors duration-200 focus:outline-none grayy focus:bg-accent-hover">
             <SearchIcon className="w-4 h-4 me-2.5" />
             {t("common:text-search")}
           </button>
         ) : (
-          <button className="h-full w-10 md:w-14 flex items-center justify-center absolute start-0 text-body transition-colors duration-200 focus:outline-none hover:text-accent-hover focus:text-accent-hover">
+          <button className="h-full w-10 md:w-14 flex items-center justify-center absolute start-0 text-body transition-colors duration-200 focus:outline-none grayy focus:text-accent-hover">
             <span className="sr-only">{t("common:text-search")}</span>
             <SearchIcon className="w-3.5 h-3.5 md:w-4 md:h-4" />
           </button>

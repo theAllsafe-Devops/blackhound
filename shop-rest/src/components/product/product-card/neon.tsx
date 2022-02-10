@@ -43,7 +43,7 @@ const Neon: React.FC<NeonProps> = ({ product, className }) => {
           className="product-image"
         />
         {discount && (
-          <div className="absolute top-3 end-3 md:top-4 md:end-4 rounded text-xs leading-6 font-semibold px-1.5 sm:px-2 md:px-2.5 bg-accent text-light">
+          <div className="absolute top-3 end-3 md:top-4 md:end-4 rounded text-xs leading-6 font-semibold px-1.5 sm:px-2 md:px-2.5 bg-dark text-light">
             {discount}
           </div>
         )}

@@ -14,7 +14,14 @@ const Logo: React.FC<React.AnchorHTMLAttributes<{}>> = ({
       href={siteSettings.logo.href}
       className={cn("inline-flex", className)}
       {...props}
-    >
+    ><style jsx global>{`
+        .BLACK {
+          padding-top: 60px !important;
+          position: absolute;
+          padding-left: 6px;
+          font-weight: 900;
+        }
+      `}</style>
       <span
         className="overflow-hidden relative"
         style={{
@@ -28,7 +35,7 @@ const Logo: React.FC<React.AnchorHTMLAttributes<{}>> = ({
           layout="fill"
           objectFit="contain"
           loading="eager"
-        />
+        /><span className="BLACK">BLACK HOUND </span>
       </span>
     </Link>
   );

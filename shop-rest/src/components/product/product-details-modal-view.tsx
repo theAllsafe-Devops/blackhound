@@ -353,7 +353,7 @@ const ProductDetailsModalView = ({ productSlug }: { productSlug: string }) => {
 
                   <button
                     onClick={() => navigate(`${ROUTES.SHOPS}/${shop?.slug}`)}
-                    className="text-sm text-accent tracking-wider transition underline hover:text-accent-hover hover:no-underline"
+                    className="text-sm text-dark tracking-wider transition underline grayy hover:no-underline"
                   >
                     {shop?.name}
                   </button>

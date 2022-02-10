@@ -75,7 +75,7 @@ export const ContactPage = () => {
               <a
                 href={siteSettings.author.websiteUrl}
                 target="_blank"
-                className="text-sm text-accent font-semibold hover:text-accent-hover focus:outline-none focus:text-blue-500"
+                className="text-sm text-dark font-semibold grayy focus:outline-none focus:text-blue-500"
               >
                 {t("text-visit-site")}
               </a>

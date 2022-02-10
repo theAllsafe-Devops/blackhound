@@ -41,7 +41,7 @@ const NavbarWithSearch = () => {
   return (
     <header
       ref={navbarRef}
-      className="site-header-with-search h-14 md:h-16 lg:h-auto"
+      className="site-header-with-search h-14 md:h-16 lg:h-22"
     >
       <nav
         className={cn(
@@ -71,9 +71,7 @@ const NavbarWithSearch = () => {
                     flex: displayHeaderSearch || !hasType,
                   }
                 )}
-              >
-                <Search label={t("text-search-label")} variant="minimal" />
-              </div>
+              >              </div>
             </div>
             <ul className="hidden lg:flex items-center flex-shrink-0 space-s-10">
               {isAuthorize ? (

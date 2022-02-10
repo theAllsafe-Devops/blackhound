@@ -18,7 +18,7 @@ const CartCounterButton = () => {
   }
   return (
     <button
-      className="hidden product-cart lg:flex flex-col items-center justify-center p-3 pt-3.5 fixed top-1/2 -mt-12 end-0 z-40 shadow-900 rounded rounded-te-none rounded-be-none bg-accent text-light text-sm font-semibold transition-colors duration-200 focus:outline-none hover:bg-accent-hover"
+      className="hidden product-cart lg:flex flex-col items-center justify-center p-3 pt-3.5 fixed top-1/2 -mt-12 end-0 z-40 shadow-900 rounded rounded-te-none rounded-be-none bg-dark text-light text-sm font-semibold transition-colors duration-200 focus:outline-none grayy"
       onClick={handleCartSidebar}
     >
       <span className="flex pb-0.5">
@@ -27,7 +27,7 @@ const CartCounterButton = () => {
           {formatString(totalUniqueItems, t("common:text-item"))}
         </span>
       </span>
-      <span className="bg-light rounded w-full py-2 px-2 text-accent mt-3">
+      <span className="bg-light rounded w-full py-2 px-2 text-dark mt-3">
         {totalPrice}
       </span>
     </button>

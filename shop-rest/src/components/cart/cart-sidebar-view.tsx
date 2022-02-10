@@ -28,7 +28,7 @@ const CartSidebarView = () => {
   return (
     <section className="flex flex-col h-full relative">
       <header className="fixed max-w-md w-full top-0 z-10 bg-light py-4 px-6 flex items-center justify-between border-b border-border-200 border-opacity-75">
-        <div className="flex text-accent font-semibold">
+        <div className="flex text-dark font-semibold">
           <CartCheckBagIcon className="flex-shrink-0" width={24} height={22} />
           <span className="flex ms-2">
             {formatString(totalUniqueItems, t("text-item"))}
@@ -36,7 +36,7 @@ const CartSidebarView = () => {
         </div>
         <button
           onClick={() => closeSidebar()}
-          className="w-7 h-7 ms-3 -me-2 flex items-center justify-center rounded-full text-muted bg-gray-100 transition-all duration-200 focus:outline-none hover:bg-accent focus:bg-accent hover:text-light focus:text-light"
+          className="w-7 h-7 ms-3 -me-2 flex items-center justify-center rounded-full text-muted bg-gray-100 transition-all duration-200 focus:outline-none hover:bg-dark focus:bg-dark hover:text-light focus:text-light"
         >
           <span className="sr-only">{t("text-close")}</span>
           <CloseIcon className="w-3 h-3" />
@@ -69,13 +69,13 @@ const CartSidebarView = () => {
 
       <footer className="sticky start-0 bottom-0 w-full py-5 px-6 z-10 bg-light">
         <button
-          className="flex justify-between w-full h-12 md:h-14 p-1 text-sm font-bold bg-accent rounded-full shadow-700 transition-colors focus:outline-none hover:bg-accent-hover focus:bg-accent-hover"
+          className="flex justify-between w-full h-12 md:h-14 p-1 text-sm font-bold bg-dark rounded-full shadow-700 transition-colors focus:outline-none grayy focus:bg-accent-hover"
           onClick={() => handleCheckout()}
         >
           <span className="flex flex-1 items-center h-full px-5 text-light">
             {t("text-checkout")}
           </span>
-          <span className="flex items-center flex-shrink-0 h-full bg-light text-accent rounded-full px-5">
+          <span className="flex items-center flex-shrink-0 h-full bg-light text-dark rounded-full px-5">
             {totalPrice}
           </span>
         </button>

@@ -70,7 +70,7 @@ const Helium: React.FC<HeliumProps> = ({ product, className }) => {
                 {price}
               </del>
             )}
-            <span className="text-accent text-sm md:text-base font-semibold">
+            <span className="text-dark text-sm md:text-base font-semibold">
               {basePrice ? basePrice : price}
             </span>
           </div>

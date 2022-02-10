@@ -43,7 +43,7 @@ const BannerShort: React.FC<BannerProps> = ({ banner, className }) => {
               <SwiperSlide key={item.id}>
                 <img
                   className="w-full h-auto"
-                  src={item.image ?? "/banner/footwear.jpg"}
+                  src={item.image ?? "/banner/web-banner.jpg"}
                   alt={item.title}
                 />
               </SwiperSlide>

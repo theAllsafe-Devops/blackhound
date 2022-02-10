@@ -52,7 +52,7 @@ const OrderDetails = ({ order }: Props) => {
 
             <Link
               href={`${ROUTES.ORDERS}/${tracking_number}`}
-              className="font-semibold text-sm text-accent flex items-center transition duration-200 no-underline hover:text-accent-hover focus:text-accent-hover"
+              className="font-semibold text-sm text-dark flex items-center transition duration-200 no-underline grayy focus:text-accent-hover"
             >
               <Eye width={20} className="me-2" />
               {t("text-sub-orders")}

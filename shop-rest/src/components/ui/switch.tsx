@@ -52,7 +52,7 @@ const Switch: React.FC<SwitchProps> = ({
   const disabledClass = disabled
     ? "opacity-75 cursor-not-allowed"
     : "opacity-100 cursor-pointer group";
-  const switchLine = state ? "bg-accent" : "bg-gray-50";
+  const switchLine = state ? "bg-dark" : "bg-gray-50";
   const switchDot = state ? "translate-x-8" : "bg-gray-600 translate-x-0";
 
   return (

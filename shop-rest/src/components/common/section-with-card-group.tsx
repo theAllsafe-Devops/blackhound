@@ -46,7 +46,7 @@ const SectionWithCardGroup = ({
       <div className="flex items-center justify-between mb-5 md:mb-8">
         <div className="flex items-center space-s-3 md:space-s-4">
           {count && (
-            <span className="rounded-full w-8 h-8 bg-accent flex items-center justify-center text-base lg:text-xl text-light">
+            <span className="rounded-full w-8 h-8 bg-dark flex items-center justify-center text-base lg:text-xl text-light">
               {count}
             </span>
           )}
@@ -56,7 +56,7 @@ const SectionWithCardGroup = ({
         </div>
         {onAdd && (
           <button
-            className="flex items-center text-sm font-semibold text-accent transition-colors duration-200 focus:outline-none focus:text-accent-hover hover:text-accent-hover"
+            className="flex items-center text-sm font-semibold text-dark transition-colors duration-200 focus:outline-none focus:text-accent-hover grayy"
             onClick={onAdd}
           >
             <PlusIcon className="w-4 h-4 stroke-2 me-0.5" />

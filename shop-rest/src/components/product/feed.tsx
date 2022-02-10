@@ -43,7 +43,7 @@ const Feed = () => {
   }
   return (
     <div className="bg-gray-100 min-h-full pt-6 pb-8 px-4 lg:p-8">
-      <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 2xl:grid-cols-5 3xl:grid-cols-6 gap-3">
+      <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 2xl:grid-cols-4 3xl:grid-cols-6 gap-3">
         {loading && !data?.pages?.length ? (
           <ProductFeedLoader limit={20} />
         ) : (

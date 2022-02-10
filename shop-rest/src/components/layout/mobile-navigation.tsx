@@ -71,7 +71,7 @@ const MobileNavigation: React.FC<MobileNavigationProps> = ({
           <span className="sr-only">{t("text-cart")}</span>
           <ShoppingBagIcon />
           {totalUniqueItems > 0 && (
-            <span className="bg-accent py-1 px-1.5 text-10px leading-none font-semibold text-light rounded-full absolute top-0 end-0 mt-0.5 -me-0.5">
+            <span className="bg-dark py-1 px-1.5 text-10px leading-none font-semibold text-light rounded-full absolute top-0 end-0 mt-0.5 -me-0.5">
               {totalUniqueItems}
             </span>
           )}

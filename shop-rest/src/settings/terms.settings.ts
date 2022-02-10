@@ -1,6 +1,6 @@
 export const termsAndServices = {
   title: "terms-main-title",
-  date: "01/01/2020",
+  date: "18/01/2022",
   content: [
     {
       id: "1",
@@ -31,6 +31,21 @@ export const termsAndServices = {
       id: "6",
       title: "terms-six-title",
       description: "terms-six-description",
+    },
+    {
+      id: "7",
+      title: "terms-Seven-title",
+      description: "terms-Seven-description",
+    },
+    {
+      id: "8",
+      title: "terms-Eight-title",
+      description: "terms-Eight-description",
+    },
+    {
+      id: "9",
+      title: "terms-Nine-title",
+      description: "terms-Nine-description",
     },
   ],
 };

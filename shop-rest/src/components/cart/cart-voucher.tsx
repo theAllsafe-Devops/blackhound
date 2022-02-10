@@ -24,7 +24,7 @@ const CartVoucher = () => {
             exit="from"
             variants={zoomInOut()}
             onSubmit={(e) => handleOnSubmit(e)}
-            className="flex justify-between w-full h-13 p-1 rounded text-sm border border-solid border-border-200 border-opacity-75 shadow-sm transition-colors duration-200 hover:border-accent"
+            className="flex justify-between w-full h-13 p-1 rounded text-sm border border-solid border-border-200 border-opacity-75 shadow-sm transition-colors duration-200 hover:border-dark"
           >
             <input
               type="text"
@@ -33,7 +33,7 @@ const CartVoucher = () => {
             />
             <button
               type="submit"
-              className="py-2 px-5 font-semibold flex-shrink-0 text-light bg-accent rounded shadow-400 transition-colors focus:outline-none hover:bg-accent-hover focus:bg-accent-hover"
+              className="py-2 px-5 font-semibold flex-shrink-0 text-light bg-dark rounded shadow-400 transition-colors focus:outline-none hover:bg-dark-hover focus:bg-dark-hover"
             >
               {t("text-apply")}
             </button>
@@ -45,7 +45,7 @@ const CartVoucher = () => {
             exit="from"
             variants={zoomInOut()}
             onClick={() => setToggleVoucher(!toggleVoucher)}
-            className="text-sm font-semibold text-accent transition-colors focus:outline-none hover:text-accent-hover focus:text-accent-hover"
+            className="text-sm font-semibold text-accent transition-colors focus:outline-none hover:text-dark-hover focus:text-dark-hover"
           >
             {t("text-have-coupon")}
           </motion.button>

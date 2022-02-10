@@ -36,7 +36,7 @@ const OrderPage = () => {
           {t("error-cart-empty")}{" "}
           <Link
             href={ROUTES.HOME}
-            className="text-accent font-semibold hover:text-accent-hover"
+            className="text-dark font-semibold grayy"
           >
             {t("text-home")}
           </Link>

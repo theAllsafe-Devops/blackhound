@@ -38,7 +38,7 @@ const ConfirmationCard: React.FC<ConfirmationCardProps> = ({
           {icon ? (
             icon
           ) : (
-            <TrashIcon className="mt-4 w-12 h-12 m-auto text-accent" />
+            <TrashIcon className="mt-4 w-12 h-12 m-auto text-dark" />
           )}
           <p className="text-heading text-xl font-bold mt-4">{t(title)}</p>
           <p className="text-body-dark dark:text-muted leading-relaxed py-2 px-6">
@@ -52,7 +52,7 @@ const ConfirmationCard: React.FC<ConfirmationCardProps> = ({
                 disabled={cancelBtnLoading}
                 variant="custom"
                 className={cn(
-                  "w-full py-2 px-4 bg-accent focus:outline-none hover:bg-accent-hover focus:bg-accent-hover text-light transition ease-in duration-200 text-center text-base font-semibold rounded shadow-md",
+                  "w-full py-2 px-4 bg-dark focus:outline-none grayy focus:bg-accent-hover text-light transition ease-in duration-200 text-center text-base font-semibold rounded shadow-md",
                   cancelBtnClassName
                 )}
               >

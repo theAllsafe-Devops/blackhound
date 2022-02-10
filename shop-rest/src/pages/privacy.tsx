@@ -18,9 +18,9 @@ export default function PrivacyPage() {
         <h1 className="text-xl md:text-2xl sm:text-3xl 2xl:text-4xl text-heading font-bold mb-4 sm:mb-5 2xl:mb-7">
           {t(title)}
         </h1>
-        <p className="text-sm md:text-base text-body-dark 2xl:text-lg px-0.5">
+       {/* <p className="text-sm md:text-base text-body-dark 2xl:text-lg px-0.5">
           {date}
-        </p>
+        </p>*/}
       </header>
       {/* End of page header */}
 

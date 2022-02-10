@@ -6,6 +6,7 @@ import { QueryClient } from "react-query";
 import { dehydrate } from "react-query/hydration";
 import dynamic from "next/dynamic";
 import Banner from "@components/common/banner";
+import Footer from "@components/common/footer";
 import HomeLayout from "@components/layout/home-layout";
 import PromotionSlider from "@components/common/promotion-slider";
 import ProductFeed from "@components/product/feed";
@@ -99,6 +100,7 @@ export default function HomePage() {
           <ProductFeed />
         </main>
       </Element>
+      <Footer />
       {width > 1023 && <CartCounterButton />}
     </>
   );

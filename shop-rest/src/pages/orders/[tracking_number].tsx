@@ -140,7 +140,7 @@ export default function OrderPage() {
 
           <Link
             href={ROUTES.HOME}
-            className="inline-flex items-center text-accent text-base font-normal underline hover:no-underline hover:text-accent-hover"
+            className="inline-flex items-center text-dark text-base font-normal underline hover:no-underline grayy"
           >
             {t("text-back-to-home")}
           </Link>

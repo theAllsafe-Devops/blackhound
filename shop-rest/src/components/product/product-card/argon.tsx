@@ -42,7 +42,7 @@ const Argon: React.FC<ArgonProps> = ({ product, className }) => {
           className="product-image"
         />
         {discount && (
-          <div className="absolute top-3 start-3 md:top-4 md:start-4 rounded text-xs leading-6 font-semibold px-1.5 sm:px-2 md:px-2.5 bg-accent text-light">
+          <div className="absolute top-3 start-3 md:top-4 md:start-4 rounded text-xs leading-6 font-semibold px-1.5 sm:px-2 md:px-2.5 bg-dark text-light">
             {discount}
           </div>
         )}

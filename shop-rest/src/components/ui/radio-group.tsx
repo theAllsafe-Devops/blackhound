@@ -19,7 +19,7 @@ const RadioGroup: React.FC<RadioGroupProps> = ({
     {
       "px-4 py-3 text-sm border rounded text-heading bg-gray-50 border-border-200":
         className !== "color",
-      "!text-light !bg-accent !border-accent": active && className !== "color",
+      "!text-light !bg-dark !border-accent": active && className !== "color",
       "h-11 w-11 p-0.5 flex items-center justify-center border-2 rounded-full border-transparent":
         className === "color",
       "!border-accent": active && className === "color",

@@ -142,7 +142,7 @@ const LoginForm = () => {
         </Button> */}
         <Button
           className="!bg-social-google hover:!bg-social-google-hover"
-          // loading={loading}
+          loading={loading}
           disabled={loading}
           onClick={() => {
             signIn("google");
@@ -160,7 +160,7 @@ const LoginForm = () => {
         {t("text-no-account")}{" "}
         <button
           onClick={() => openModal("REGISTER")}
-          className="ms-1 underline text-accent font-semibold transition-colors duration-200 focus:outline-none hover:text-accent-hover focus:text-accent-hover hover:no-underline focus:no-underline"
+          className="ms-1 underline text-dark font-semibold transition-colors duration-200 focus:outline-none grayy focus:text-accent-hover hover:no-underline focus:no-underline"
         >
           {t("text-register")}
         </button>
