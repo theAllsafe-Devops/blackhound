@@ -18,7 +18,7 @@ module.exports = withPWA({
       "18.141.64.26",
       "127.0.0.1",
       "localhost",
-      "35.170.79.182",
+      "44.198.22.45",
       "picsum.photos",
       "pickbazar-sail.test",
       "pickbazarlaravel.s3.ap-southeast-1.amazonaws.com",

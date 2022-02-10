@@ -25,7 +25,7 @@ module.exports = withPWA({
       "res.cloudinary.com",
       "s3.amazonaws.com",
       "18.141.64.26",
-      "35.170.79.182",
+      "44.198.22.45",
       "localhost",
       "via.placeholder.com",
       "pickbazarlaravel.s3.ap-southeast-1.amazonaws.com",
